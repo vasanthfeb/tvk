@@ -117,14 +117,14 @@ body{
 }
 .nav-link{
 	color: #212121 !important;
-	font-weight: 500;
+	font-weight: 600;
     transition: all 200ms linear;
 }
 .nav-item:hover .nav-link{
-	color: #8167a9 !important;
+	color: #a00000 !important;
 }
 .nav-item.active .nav-link{
-	color: #777 !important;
+	color: #a00000 !important;
 }
 .nav-link {
 	position: relative;
@@ -610,21 +610,24 @@ body.dark .logo img {
 
 .navbar-toggler-icon::before{
 	background-color: #a00000 !important;
-	height: 2px !important;
+	height: 3px !important;
 }
 
 
 
 .navbar-light .navbar-toggler-icon::after{
 	background-color: #fecb02 !important;
-	height: 2px !important;
+	height: 3px !important;
 }
 
 
 .navbar-light .navbar-toggler-icon{
-	border-bottom: 2px solid #a00000;
+	border-bottom: 3px solid #a00000;
 }
 /* =====    nav color start  ===== */
+@media only screen and (max-width: 768px){
 .navbar-brand img{
 	height: 40px !important;
 }
+}
+
