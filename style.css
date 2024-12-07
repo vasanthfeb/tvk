@@ -322,7 +322,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		
 	}
 	.dropdown-toggle::after {
 		position: absolute;
@@ -334,7 +334,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 		content: "";
 		border: none;
 		background-color: #000;
-		vertical-align: 0;
+		
 		transition: all 200ms linear;
 	}
 	.dropdown-toggle[aria-expanded="true"]::after{
@@ -519,3 +519,20 @@ body.dark .logo img {
   .visible.c {
 	transform: translateX(0); /* Move from left */
   }
+
+
+  .flag_bg{
+	background-image: url(./img/flag.webp);
+	height: 90vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  }
+  /* .vas{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+  } */
